@@ -1,0 +1,32 @@
+{
+  "name": "api-testing",
+  "version": "1.0.0",
+  "description": "An example API testing repo against public APIs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint .",
+    "lint-fix": "npm run lint -- --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwallace72/api-testing.git"
+  },
+  "author": "Morgan Wallace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwallace72/api-testing/issues"
+  },
+  "homepage": "https://github.com/mwallace72/api-testing#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "got": "^11.8.3",
+    "jest": "^27.5.0",
+    "prettier": "^2.5.1"
+  }
+}
